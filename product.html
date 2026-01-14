@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOB Low Top - Black/White | ETQ.</title>
+    <meta name="description"
+        content="SOB Low Top sneakers in Black/White. Premium nappa leather slip-on with minimalist design.">
+
+    <!-- SEO -->
+    <meta property="og:title" content="SOB Low Top - Black/White | ETQ.">
+    <meta property="og:description" content="Premium nappa leather slip-on with minimalist design.">
+    <meta property="og:type" content="product">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand': {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            200: '#e2e8f0',
+                            300: '#cbd5e1',
+                            400: '#94a3b8',
+                            500: '#64748b',
+                            600: '#475569',
+                            700: '#334155',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+
+        .thumbnail-active {
+            border: 2px solid #0f172a;
+        }
+
+        .size-btn.selected {
+            background-color: #0f172a;
+            color: white;
+        }
+
+        .size-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            text-decoration: line-through;
+        }
+
+        .main-image {
+            transition: opacity 0.3s ease;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        .fade-in {
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .slide-in {
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-white text-brand-800 min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 left-0 right-0 bg-white z-50 border-b border-brand-100">
+        <div class="max-w-[1800px] mx-auto px-6 lg:px-10">
+            <div class="flex items-center justify-between h-14">
+                <!-- Left: Logo + Nav Links -->
+                <div class="flex items-center space-x-10">
+                    <!-- Logo -->
+                    <a href="index.html" class="text-xl font-bold tracking-tight text-brand-900">ETQ.</a>
+
+                    <!-- Navigation Links -->
+                    <div class="hidden md:flex items-center space-x-8">
+                        <a href="index.html"
+                            class="text-sm text-brand-700 hover:text-brand-900 transition-colors">Footwear</a>
+                        <a href="index.html"
+                            class="text-sm text-brand-700 hover:text-brand-900 transition-colors">Menswear</a>
+                        <a href="#" class="text-sm text-red-600 hover:text-red-700 transition-colors">Sale</a>
+                    </div>
+                </div>
+
+                <!-- Right: Search, Service, Account, Cart -->
+                <div class="flex items-center space-x-6">
+                    <button
+                        class="hidden md:flex items-center text-sm text-brand-600 hover:text-brand-900 transition-colors">
+                        Search
+                    </button>
+                    <a href="#"
+                        class="hidden md:flex items-center text-sm text-brand-600 hover:text-brand-900 transition-colors">
+                        Service
+                    </a>
+                    <a href="#"
+                        class="hidden md:flex items-center text-sm text-brand-600 hover:text-brand-900 transition-colors">
+                        My account
+                    </a>
+
+                    <!-- Cart -->
+                    <button id="cart-btn"
+                        class="relative flex items-center justify-center w-8 h-8 bg-brand-100 rounded-full hover:bg-brand-200 transition-colors">
+                        <span id="cart-count" class="text-xs font-medium text-brand-800">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="max-w-[1800px] mx-auto px-6 lg:px-10 py-4">
+        <nav class="text-sm text-brand-500">
+            <a href="index.html" class="hover:text-brand-800 transition-colors">Home</a>
+            <span class="mx-2">/</span>
+            <a href="index.html" class="hover:text-brand-800 transition-colors">Footwear</a>
+            <span class="mx-2">/</span>
+            <a href="#" class="hover:text-brand-800 transition-colors">Low Top</a>
+            <span class="mx-2">/</span>
+            <span class="text-brand-800">SOB Low Top</span>
+        </nav>
+    </div>
+
+    <!-- Main Product Section -->
+    <main>
+        <section class="max-w-[1800px] mx-auto px-6 lg:px-10 pb-12">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+                <!-- Left: Image Gallery -->
+                <div class="lg:col-span-8">
+                    <!-- Main Image -->
+                    <div class="bg-[#f5f5f5] aspect-square mb-4 overflow-hidden">
+                        <img id="main-product-image"
+                            src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=1200&h=1200&fit=crop"
+                            alt="SOB Low Top - Black/White" class="main-image w-full h-full object-cover">
+                    </div>
+
+                    <!-- Thumbnail Grid -->
+                    <div class="grid grid-cols-4 md:grid-cols-6 gap-2">
+                        <button
+                            onclick="changeImage(this, 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=1200&h=1200&fit=crop')"
+                            class="thumbnail-active bg-[#f5f5f5] aspect-square overflow-hidden border-2 border-transparent hover:border-brand-300 transition-colors">
+                            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=200&h=200&fit=crop"
+                                alt="View 1" class="w-full h-full object-cover">
+                        </button>
+                        <button
+                            onclick="changeImage(this, 'https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=1200&h=1200&fit=crop')"
+                            class="bg-[#f5f5f5] aspect-square overflow-hidden border-2 border-transparent hover:border-brand-300 transition-colors">
+                            <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=200&h=200&fit=crop"
+                                alt="View 2" class="w-full h-full object-cover">
+                        </button>
+                        <button
+                            onclick="changeImage(this, 'https://images.unsplash.com/photo-1491553895911-0055uj6c?w=1200&h=1200&fit=crop')"
+                            class="bg-[#f5f5f5] aspect-square overflow-hidden border-2 border-transparent hover:border-brand-300 transition-colors">
+                            <img src="https://images.unsplash.com/photo-1491553895911-0055uj6c?w=200&h=200&fit=crop"
+                                alt="View 3" class="w-full h-full object-cover">
+                        </button>
+                        <button
+                            onclick="changeImage(this, 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=1200&h=1200&fit=crop')"
+                            class="bg-[#f5f5f5] aspect-square overflow-hidden border-2 border-transparent hover:border-brand-300 transition-colors">
+                            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=200&h=200&fit=crop"
+                                alt="View 4" class="w-full h-full object-cover">
+                        </button>
+                        <button
+                            onclick="changeImage(this, 'https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=1200&h=1200&fit=crop')"
+                            class="bg-[#f5f5f5] aspect-square overflow-hidden border-2 border-transparent hover:border-brand-300 transition-colors">
+                            <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=200&h=200&fit=crop"
+                                alt="View 5" class="w-full h-full object-cover">
+                        </button>
+                        <button
+                            onclick="changeImage(this, 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=1200&h=1200&fit=crop')"
+                            class="bg-[#f5f5f5] aspect-square overflow-hidden border-2 border-transparent hover:border-brand-300 transition-colors">
+                            <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=200&h=200&fit=crop"
+                                alt="View 6" class="w-full h-full object-cover">
+                        </button>
+                    </div>
+
+                    <!-- Lifestyle Gallery Grid -->
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mt-8">
+                        <div class="aspect-square overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=600&h=600&fit=crop"
+                                alt="Lifestyle 1"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="aspect-square overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=600&h=600&fit=crop"
+                                alt="Lifestyle 2"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="aspect-square overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=600&h=600&fit=crop"
+                                alt="Lifestyle 3"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="aspect-[3/4] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?w=600&h=800&fit=crop"
+                                alt="Lifestyle 4"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="aspect-[3/4] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&h=800&fit=crop"
+                                alt="Lifestyle 5"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="aspect-[3/4] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=800&fit=crop"
+                                alt="Lifestyle 6"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Product Info -->
+                <div class="lg:col-span-4 lg:sticky lg:top-20 lg:self-start">
+                    <div class="space-y-6">
+                        <!-- Product Title & Price -->
+                        <div>
+                            <p class="text-sm text-brand-500 mb-1">Low Top</p>
+                            <h1 class="text-2xl font-medium text-brand-900 mb-2">SOB Low Top</h1>
+                            <p class="text-lg text-brand-800">€295.00</p>
+                        </div>
+
+                        <!-- Color Selection -->
+                        <div>
+                            <p class="text-sm text-brand-700 mb-3">Color: <span class="font-medium">Black / White</span>
+                            </p>
+                            <div class="flex gap-2">
+                                <button
+                                    class="w-10 h-10 rounded-full bg-black border-2 border-brand-900 ring-2 ring-offset-2 ring-brand-900"
+                                    title="Black/White"></button>
+                                <button
+                                    class="w-10 h-10 rounded-full bg-white border border-brand-200 hover:border-brand-400 transition-colors"
+                                    title="White"></button>
+                                <button
+                                    class="w-10 h-10 rounded-full bg-[#8B4513] border border-brand-200 hover:border-brand-400 transition-colors"
+                                    title="Brown"></button>
+                                <button
+                                    class="w-10 h-10 rounded-full bg-[#1a1a2e] border border-brand-200 hover:border-brand-400 transition-colors"
+                                    title="Navy"></button>
+                            </div>
+                        </div>
+
+                        <!-- Size Selection -->
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <p class="text-sm text-brand-700">Size (EU)</p>
+                                <button class="text-sm text-brand-600 underline hover:no-underline">Size Guide</button>
+                            </div>
+                            <div class="grid grid-cols-5 gap-2" id="size-grid">
+                                <button
+                                    class="size-btn py-3 text-sm border border-brand-200 hover:border-brand-400 transition-colors"
+                                    onclick="selectSize(this)">38</button>
+                                <button
+                                    class="size-btn py-3 text-sm border border-brand-200 hover:border-brand-400 transition-colors"
+                                    onclick="selectSize(this)">39</button>
+                                <button
+                                    class="size-btn py-3 text-sm border border-brand-200 hover:border-brand-400 transition-colors"
+                                    onclick="selectSize(this)">40</button>
+                                <button
+                                    class="size-btn py-3 text-sm border border-brand-200 hover:border-brand-400 transition-colors"
+                                    onclick="selectSize(this)">41</button>
+                                <button
+                                    class="size-btn py-3 text-sm border border-brand-200 hover:border-brand-400 transition-colors selected"
+                                    onclick="selectSize(this)">42</button>
+                                <button
+                                    class="size-btn py-3 text-sm border border-brand-200 hover:border-brand-400 transition-colors"
+                                    onclick="selectSize(this)">43</button>
+                                <button
+                                    class="size-btn py-3 text-sm border border-brand-200 hover:border-brand-400 transition-colors"
+                                    onclick="selectSize(this)">44</button>
+                                <button
+                                    class="size-btn py-3 text-sm border border-brand-200 hover:border-brand-400 transition-colors"
+                                    onclick="selectSize(this)">45</button>
+                                <button class="size-btn py-3 text-sm border border-brand-200" disabled>46</button>
+                                <button
+                                    class="size-btn py-3 text-sm border border-brand-200 hover:border-brand-400 transition-colors"
+                                    onclick="selectSize(this)">47</button>
+                            </div>
+                        </div>
+
+                        <!-- Add to Bag Button -->
+                        <button id="add-to-bag"
+                            class="w-full py-4 bg-brand-900 text-white font-medium hover:bg-brand-800 transition-colors">
+                            Add to bag
+                        </button>
+
+                        <!-- Wishlist & Share -->
+                        <div class="flex items-center gap-4 pt-2">
+                            <button
+                                class="flex items-center gap-2 text-sm text-brand-600 hover:text-brand-900 transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                </svg>
+                                Add to wishlist
+                            </button>
+                            <button
+                                class="flex items-center gap-2 text-sm text-brand-600 hover:text-brand-900 transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                                </svg>
+                                Share
+                            </button>
+                        </div>
+
+                        <!-- Product Details Accordion -->
+                        <div class="border-t border-brand-100 pt-6 space-y-4">
+                            <details class="group" open>
+                                <summary
+                                    class="flex items-center justify-between cursor-pointer py-2 text-sm font-medium text-brand-900">
+                                    Description
+                                    <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7" />
+                                    </svg>
+                                </summary>
+                                <div class="pt-2 text-sm text-brand-600 leading-relaxed">
+                                    <p>The SOB Low Top combines timeless design with premium materials. Crafted from
+                                        Italian nappa leather with a contrast white rubber sole, this slip-on sneaker
+                                        offers effortless style for everyday wear.</p>
+                                    <ul class="mt-3 space-y-1">
+                                        <li>• Premium Italian nappa leather upper</li>
+                                        <li>• White rubber cup sole</li>
+                                        <li>• Elastic side panels for easy slip-on</li>
+                                        <li>• Leather-lined interior</li>
+                                        <li>• Removable cushioned insole</li>
+                                    </ul>
+                                </div>
+                            </details>
+
+                            <details class="group border-t border-brand-100">
+                                <summary
+                                    class="flex items-center justify-between cursor-pointer py-4 text-sm font-medium text-brand-900">
+                                    Shipping & Returns
+                                    <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7" />
+                                    </svg>
+                                </summary>
+                                <div class="pb-4 text-sm text-brand-600 leading-relaxed">
+                                    <p>Free shipping on all orders over €150. Standard delivery 3-5 business days.</p>
+                                    <p class="mt-2">Free returns within 30 days of delivery.</p>
+                                </div>
+                            </details>
+
+                            <details class="group border-t border-brand-100">
+                                <summary
+                                    class="flex items-center justify-between cursor-pointer py-4 text-sm font-medium text-brand-900">
+                                    Care Instructions
+                                    <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7" />
+                                    </svg>
+                                </summary>
+                                <div class="pb-4 text-sm text-brand-600 leading-relaxed">
+                                    <p>Clean with a soft, damp cloth. Use leather conditioner to maintain softness.
+                                        Store in the provided dust bag when not in use.</p>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Complete The Look Section -->
+        <section class="py-12 bg-white border-t border-brand-100">
+            <div class="max-w-[1800px] mx-auto px-6 lg:px-10">
+                <div class="flex items-center justify-between mb-8">
+                    <h2 class="text-lg font-light text-brand-900">Complete The Look</h2>
+                    <a href="#" class="text-sm text-brand-800 underline underline-offset-4 hover:no-underline">Shop
+                        all</a>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Look Image -->
+                    <div class="md:col-span-1">
+                        <div class="aspect-[3/4] bg-brand-900 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&h=800&fit=crop"
+                                alt="Complete the look" class="w-full h-full object-cover opacity-90">
+                        </div>
+                    </div>
+
+                    <!-- Related Products -->
+                    <div class="md:col-span-2">
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <a href="#" class="group">
+                                <div class="bg-[#f5f5f5] aspect-square mb-3 overflow-hidden">
+                                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop"
+                                        alt="Essential T-Shirt"
+                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                </div>
+                                <p class="text-sm font-medium text-brand-800">Essential T-Shirt</p>
+                                <p class="text-sm text-brand-500">€65.00</p>
+                            </a>
+                            <a href="#" class="group">
+                                <div class="bg-[#f5f5f5] aspect-square mb-3 overflow-hidden">
+                                    <img src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400&h=400&fit=crop"
+                                        alt="Relaxed Trousers"
+                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                </div>
+                                <p class="text-sm font-medium text-brand-800">Relaxed Trousers</p>
+                                <p class="text-sm text-brand-500">€145.00</p>
+                            </a>
+                            <a href="#" class="group">
+                                <div class="bg-[#f5f5f5] aspect-square mb-3 overflow-hidden">
+                                    <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=400&h=400&fit=crop"
+                                        alt="SOB Low Top"
+                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                </div>
+                                <p class="text-sm font-medium text-brand-800">SOB Low Top</p>
+                                <p class="text-sm text-brand-500">€295.00</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- You May Also Like Section -->
+        <section class="py-12 bg-white border-t border-brand-100">
+            <div class="max-w-[1800px] mx-auto px-6 lg:px-10">
+                <div class="flex items-center justify-between mb-8">
+                    <h2 class="text-lg font-light text-brand-900">You May Also Like</h2>
+                    <a href="#" class="text-sm text-brand-800 underline underline-offset-4 hover:no-underline">View
+                        all</a>
+                </div>
+
+                <div id="also-like-grid" class="grid grid-cols-2 md:grid-cols-4 gap-[2px] bg-brand-200">
+                    <a href="#" class="bg-[#f5f5f5] group">
+                        <div class="aspect-square flex items-center justify-center p-8">
+                            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&h=500&fit=crop"
+                                alt="Low Top Suede"
+                                class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-4 bg-white">
+                            <p class="text-sm font-medium text-brand-800">Low Top Suede</p>
+                            <p class="text-xs text-brand-500 mt-1">€275.00</p>
+                        </div>
+                    </a>
+                    <a href="#" class="bg-[#f5f5f5] group">
+                        <div class="aspect-square flex items-center justify-center p-8">
+                            <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500&h=500&fit=crop"
+                                alt="Chelsea Boot"
+                                class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-4 bg-white">
+                            <p class="text-sm font-medium text-brand-800">Chelsea Boot</p>
+                            <p class="text-xs text-brand-500 mt-1">€345.00</p>
+                        </div>
+                    </a>
+                    <a href="#" class="bg-[#f5f5f5] group">
+                        <div class="aspect-square flex items-center justify-center p-8">
+                            <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop"
+                                alt="High Top Leather"
+                                class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-4 bg-white">
+                            <p class="text-sm font-medium text-brand-800">High Top Leather</p>
+                            <p class="text-xs text-brand-500 mt-1">€315.00</p>
+                        </div>
+                    </a>
+                    <a href="#" class="bg-[#f5f5f5] group">
+                        <div class="aspect-square flex items-center justify-center p-8">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop"
+                                alt="Runner"
+                                class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-4 bg-white">
+                            <p class="text-sm font-medium text-brand-800">Runner</p>
+                            <p class="text-xs text-brand-500 mt-1">€265.00</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recently Viewed Section -->
+        <section class="py-12 bg-white border-t border-brand-100">
+            <div class="max-w-[1800px] mx-auto px-6 lg:px-10">
+                <div class="flex items-center justify-between mb-8">
+                    <h2 class="text-lg font-light text-brand-900">Recently Viewed</h2>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+                    <a href="#" class="group">
+                        <div class="bg-[#f5f5f5] aspect-square mb-3 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=300&h=300&fit=crop"
+                                alt="Product"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <p class="text-xs text-brand-800 underline">Low Top</p>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="bg-[#f5f5f5] aspect-square mb-3 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=300&h=300&fit=crop"
+                                alt="Product"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <p class="text-xs text-brand-800 underline">Hoodie</p>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="bg-[#f5f5f5] aspect-square mb-3 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300&h=300&fit=crop"
+                                alt="Product"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <p class="text-xs text-brand-800 underline">T-Shirt</p>
+                    </a>
+                    <a href="#" class="group hidden md:block">
+                        <div class="bg-[#f5f5f5] aspect-square mb-3 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=300&h=300&fit=crop"
+                                alt="Product"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <p class="text-xs text-brand-800 underline">Chelsea Boot</p>
+                    </a>
+                    <a href="#" class="group hidden md:block">
+                        <div class="bg-[#f5f5f5] aspect-square mb-3 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1516826957135-700dedea698c?w=300&h=300&fit=crop"
+                                alt="Product"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <p class="text-xs text-brand-800 underline">Jacket</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-16 bg-brand-900 text-white">
+            <div class="max-w-[1800px] mx-auto px-6 lg:px-10">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+                    <div>
+                        <h3 class="text-sm font-medium mb-4">Shop</h3>
+                        <ul class="space-y-2 text-sm text-brand-300">
+                            <li><a href="#" class="hover:text-white transition-colors">Footwear</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Menswear</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Accessories</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Sale</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-medium mb-4">Help</h3>
+                        <ul class="space-y-2 text-sm text-brand-300">
+                            <li><a href="#" class="hover:text-white transition-colors">Shipping</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Returns</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Size Guide</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-medium mb-4">About</h3>
+                        <ul class="space-y-2 text-sm text-brand-300">
+                            <li><a href="#" class="hover:text-white transition-colors">Our Story</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Sustainability</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Press</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-medium mb-4">Follow</h3>
+                        <ul class="space-y-2 text-sm text-brand-300">
+                            <li><a href="#" class="hover:text-white transition-colors">Instagram</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Twitter</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    class="border-t border-brand-700 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                    <p class="text-xl font-bold tracking-tight">ETQ.</p>
+                    <p class="text-xs text-brand-400">© 2026 ETQ Amsterdam. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Cart Sidebar -->
+    <div id="cart-sidebar" class="fixed inset-0 z-50 hidden">
+        <div class="absolute inset-0 bg-black/50" id="cart-overlay"></div>
+        <div class="absolute right-0 top-0 h-full w-full max-w-md bg-white shadow-xl slide-in">
+            <div class="flex flex-col h-full">
+                <!-- Cart Header -->
+                <div class="flex items-center justify-between p-6 border-b border-brand-100">
+                    <h2 class="text-lg font-semibold text-brand-900">Shopping Cart</h2>
+                    <button id="close-cart" class="p-2 text-brand-600 hover:text-brand-900">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Cart Items -->
+                <div id="cart-items" class="flex-1 overflow-y-auto p-6">
+                    <p id="empty-cart-msg" class="text-center text-brand-400 py-12">Your cart is empty</p>
+                </div>
+
+                <!-- Cart Footer -->
+                <div class="border-t border-brand-100 p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-brand-600">Subtotal</span>
+                        <span id="cart-subtotal" class="text-lg font-semibold text-brand-900">€0.00</span>
+                    </div>
+                    <button id="checkout-btn"
+                        class="w-full py-4 bg-brand-900 text-white font-medium hover:bg-brand-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                        disabled>
+                        Checkout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Image Gallery
+        function changeImage(thumbnail, imageUrl) {
+            // Update main image
+            document.getElementById('main-product-image').src = imageUrl;
+
+            // Update thumbnail active state
+            document.querySelectorAll('button[onclick^="changeImage"]').forEach(btn => {
+                btn.classList.remove('thumbnail-active');
+            });
+            thumbnail.classList.add('thumbnail-active');
+        }
+
+        // Size Selection
+        function selectSize(button) {
+            if (button.disabled) return;
+
+            document.querySelectorAll('.size-btn').forEach(btn => {
+                btn.classList.remove('selected');
+            });
+            button.classList.add('selected');
+        }
+
+        // Cart functionality
+        let cart = [];
+        const cartBtn = document.getElementById('cart-btn');
+        const cartSidebar = document.getElementById('cart-sidebar');
+        const closeCart = document.getElementById('close-cart');
+        const cartOverlay = document.getElementById('cart-overlay');
+        const cartCount = document.getElementById('cart-count');
+        const cartItems = document.getElementById('cart-items');
+        const cartSubtotal = document.getElementById('cart-subtotal');
+        const emptyCartMsg = document.getElementById('empty-cart-msg');
+        const checkoutBtn = document.getElementById('checkout-btn');
+        const addToBagBtn = document.getElementById('add-to-bag');
+
+        // Open/Close Cart
+        cartBtn.addEventListener('click', () => {
+            cartSidebar.classList.remove('hidden');
+        });
+
+        closeCart.addEventListener('click', () => {
+            cartSidebar.classList.add('hidden');
+        });
+
+        cartOverlay.addEventListener('click', () => {
+            cartSidebar.classList.add('hidden');
+        });
+
+        // Add to Bag
+        addToBagBtn.addEventListener('click', () => {
+            const selectedSize = document.querySelector('.size-btn.selected');
+            if (!selectedSize) {
+                alert('Please select a size');
+                return;
+            }
+
+            const product = {
+                id: 'sob-low-top-black',
+                name: 'SOB Low Top',
+                color: 'Black / White',
+                size: selectedSize.textContent,
+                price: 295,
+                image: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=200&h=200&fit=crop',
+                quantity: 1
+            };
+
+            // Check if product already in cart
+            const existingIndex = cart.findIndex(item =>
+                item.id === product.id && item.size === product.size
+            );
+
+            if (existingIndex > -1) {
+                cart[existingIndex].quantity++;
+            } else {
+                cart.push(product);
+            }
+
+            updateCart();
+            cartSidebar.classList.remove('hidden');
+        });
+
+        function updateCart() {
+            // Update count
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            cartCount.textContent = totalItems;
+
+            // Update items display
+            if (cart.length === 0) {
+                emptyCartMsg.style.display = 'block';
+                checkoutBtn.disabled = true;
+            } else {
+                emptyCartMsg.style.display = 'none';
+                checkoutBtn.disabled = false;
+
+                cartItems.innerHTML = cart.map((item, index) => `
+                    <div class="flex gap-4 pb-4 border-b border-brand-100 mb-4">
+                        <div class="w-20 h-20 bg-[#f5f5f5] overflow-hidden flex-shrink-0">
+                            <img src="${item.image}" alt="${item.name}" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-sm font-medium text-brand-900">${item.name}</h4>
+                            <p class="text-xs text-brand-500">${item.color} / EU ${item.size}</p>
+                            <p class="text-sm font-medium text-brand-800 mt-1">€${item.price.toFixed(2)}</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <button onclick="updateQuantity(${index}, -1)" class="w-6 h-6 border border-brand-200 text-brand-600 hover:bg-brand-100">-</button>
+                                <span class="text-sm">${item.quantity}</span>
+                                <button onclick="updateQuantity(${index}, 1)" class="w-6 h-6 border border-brand-200 text-brand-600 hover:bg-brand-100">+</button>
+                                <button onclick="removeItem(${index})" class="ml-auto text-xs text-brand-500 hover:text-red-600">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            // Update subtotal
+            const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            cartSubtotal.textContent = `€${subtotal.toFixed(2)}`;
+        }
+
+        function updateQuantity(index, delta) {
+            cart[index].quantity += delta;
+            if (cart[index].quantity <= 0) {
+                cart.splice(index, 1);
+            }
+            updateCart();
+        }
+
+        function removeItem(index) {
+            cart.splice(index, 1);
+            updateCart();
+        }
+    </script>
+
+    <!-- Products Database -->
+    <script src="js/products.js"></script>
+
+    <!-- Dynamic Product Loading -->
+    <script>
+        // Get product ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = parseInt(urlParams.get('id'));
+
+        // Load products and populate page
+        async function initProductPage() {
+            try {
+                // Load products from JSON
+                const response = await fetch('js/products.json');
+                const data = await response.json();
+                const products = data.products;
+
+                // Find product in database
+                let currentProduct = null;
+                if (productId) {
+                    currentProduct = products.find(p => p.id === productId);
+                }
+
+                // Default product if none found or no ID provided
+                if (!currentProduct && products.length > 0) {
+                    currentProduct = products[0];
+                }
+
+                if (currentProduct) {
+                    // Update page title
+                    document.title = `${currentProduct.name} | ETQ.`;
+
+                    // Update main product image - use modal image if available
+                    const mainImage = document.getElementById('main-product-image');
+                    if (mainImage) {
+                        mainImage.src = currentProduct.modalImage || currentProduct.image;
+                        mainImage.alt = currentProduct.name;
+                    }
+
+                    // Update product info
+                    const productCategory = document.querySelector('.lg\\:col-span-4 .text-sm.text-brand-500');
+                    if (productCategory) {
+                        productCategory.textContent = currentProduct.category.charAt(0).toUpperCase() + currentProduct.category.slice(1);
+                    }
+
+                    const productTitle = document.querySelector('.lg\\:col-span-4 h1');
+                    if (productTitle) {
+                        productTitle.textContent = currentProduct.name;
+                    }
+
+                    const productPrice = document.querySelector('.lg\\:col-span-4 .text-lg.text-brand-800');
+                    if (productPrice) {
+                        productPrice.textContent = `$${currentProduct.price.toFixed(2)}`;
+                    }
+
+                    // Update color display
+                    const colorDisplay = document.querySelector('.lg\\:col-span-4 .font-medium');
+                    if (colorDisplay && currentProduct.color) {
+                        colorDisplay.textContent = currentProduct.color;
+                    }
+
+                    // Update breadcrumb
+                    const breadcrumbName = document.querySelector('nav.text-sm span.text-brand-800');
+                    if (breadcrumbName) {
+                        breadcrumbName.textContent = currentProduct.name;
+                    }
+
+                    // Update size grid
+                    const sizeGrid = document.getElementById('size-grid');
+                    if (sizeGrid && currentProduct.sizes) {
+                        sizeGrid.innerHTML = currentProduct.sizes.map((size, index) => `
+                            <button class="size-btn py-3 text-sm border border-brand-200 hover:border-brand-400 transition-colors ${index === 0 ? 'selected' : ''}"
+                                    onclick="selectSize(this)">${size}</button>
+                        `).join('');
+                    }
+
+                    // Update description
+                    const descriptionContent = document.querySelector('details.group > div.pt-2');
+                    if (descriptionContent) {
+                        descriptionContent.innerHTML = `
+                            <p>${currentProduct.description}</p>
+                            <ul class="mt-3 space-y-1">
+                                <li>• Premium quality materials</li>
+                                <li>• Carefully crafted design</li>
+                                <li>• Comfortable everyday wear</li>
+                            </ul>
+                        `;
+                    }
+
+                    // Update thumbnails with product image and modal image
+                    const thumbnailContainer = document.querySelector('.grid.grid-cols-4.md\\:grid-cols-6');
+                    if (thumbnailContainer) {
+                        const productImage = currentProduct.image;
+                        const modalImage = currentProduct.modalImage;
+
+                        let thumbnailsHtml = `
+                            <button onclick="changeImage(this, '${productImage}')"
+                                    class="thumbnail-active bg-[#f5f5f5] aspect-square overflow-hidden border-2 border-transparent hover:border-brand-300 transition-colors">
+                                <img src="${productImage}" alt="Product View" class="w-full h-full object-cover">
+                            </button>
+                        `;
+
+                        if (modalImage) {
+                            thumbnailsHtml += `
+                                <button onclick="changeImage(this, '${modalImage}')"
+                                        class="bg-[#f5f5f5] aspect-square overflow-hidden border-2 border-transparent hover:border-brand-300 transition-colors">
+                                    <img src="${modalImage}" alt="Model View" class="w-full h-full object-cover">
+                                </button>
+                            `;
+                        }
+
+                        thumbnailContainer.innerHTML = thumbnailsHtml;
+                    }
+
+                    // Update lifestyle gallery with related product images
+                    const lifestyleGallery = document.querySelector('.grid.grid-cols-2.md\\:grid-cols-3.gap-2.mt-8');
+                    if (lifestyleGallery) {
+                        const relatedProducts = products.filter(p =>
+                            p.category === currentProduct.category && p.id !== currentProduct.id
+                        ).slice(0, 6);
+
+                        lifestyleGallery.innerHTML = relatedProducts.map(p => `
+                            <div class="aspect-square overflow-hidden cursor-pointer" onclick="window.location.href='product.html?id=${p.id}'">
+                                <img src="${p.modalImage || p.image}" alt="${p.name}"
+                                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                        `).join('');
+                    }
+
+                    // Update Add to Bag handler with actual product data
+                    const addToBagBtn = document.getElementById('add-to-bag');
+                    addToBagBtn.onclick = () => {
+                        const selectedSize = document.querySelector('.size-btn.selected');
+                        if (!selectedSize) {
+                            alert('Please select a size');
+                            return;
+                        }
+
+                        const product = {
+                            id: `product-${currentProduct.id}`,
+                            name: currentProduct.name,
+                            color: currentProduct.color || 'Default',
+                            size: selectedSize.textContent.trim(),
+                            price: currentProduct.price,
+                            image: currentProduct.image,
+                            quantity: 1
+                        };
+
+                        // Check if product already in cart
+                        const existingIndex = cart.findIndex(item =>
+                            item.id === product.id && item.size === product.size
+                        );
+
+                        if (existingIndex > -1) {
+                            cart[existingIndex].quantity++;
+                        } else {
+                            cart.push(product);
+                        }
+
+                        updateCart();
+                        cartSidebar.classList.remove('hidden');
+                    };
+
+                    // Populate "You May Also Like" section with related products
+                    const alsoLikeContainer = document.querySelector('#also-like-grid');
+                    if (alsoLikeContainer) {
+                        const otherProducts = products.filter(p => p.id !== currentProduct.id).slice(0, 4);
+                        alsoLikeContainer.innerHTML = otherProducts.map(p => `
+                            <a href="product.html?id=${p.id}" class="bg-[#f5f5f5] group">
+                                <div class="aspect-square flex items-center justify-center p-8">
+                                    <img src="${p.image}" alt="${p.name}"
+                                         class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                                </div>
+                                <div class="p-4 bg-white">
+                                    <p class="text-sm font-medium text-brand-800">${p.name}</p>
+                                    <p class="text-xs text-brand-500 mt-1">$${p.price.toFixed(2)}</p>
+                                </div>
+                            </a>
+                        `).join('');
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading product data:', error);
+            }
+        }
+
+        // Initialize when DOM is ready
+        document.addEventListener('DOMContentLoaded', initProductPage);
+    </script>
+
+</body>
+
+</html>
