@@ -6,8 +6,8 @@ const products = [
         "category": "clothing",
         "subcategory": "tshirts",
         "price": 45,
-        "image": "Images/black-tshirt.png",
-        "modalImage": "Images/modal long sleeve black shirt.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394394/black-tshirt_bcssut.jpg",
+        "modalImage": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394435/modal_long_sleeve_black_shirt_xlwinj.png",
         "sizes": ["XS", "S", "M", "L", "XL"],
         "color": "Black",
         "description": "A timeless crew neck t-shirt crafted from premium organic cotton."
@@ -18,7 +18,7 @@ const products = [
         "category": "clothing",
         "subcategory": "tshirts",
         "price": 55,
-        "image": "Images/thsirt.jpg",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394400/thsirt_ggjjfm.jpg",
         "modalImage": null,
         "sizes": ["S", "M", "L", "XL"],
         "color": "White",
@@ -30,8 +30,8 @@ const products = [
         "category": "clothing",
         "subcategory": "sweaters",
         "price": 85,
-        "image": "Images/Beigh Sweat shity.png",
-        "modalImage": "Images/beige sweat shirt modal.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394453/Beigh_Sweat_shity_ia5af1.png",
+        "modalImage": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394462/beige_sweat_shirt_modal_kjza0p.png",
         "sizes": ["XS", "S", "M", "L", "XL"],
         "color": "Beige",
         "description": "Comfortable beige sweatshirt with a relaxed fit."
@@ -42,8 +42,8 @@ const products = [
         "category": "clothing",
         "subcategory": "sweaters",
         "price": 78,
-        "image": "Images/sweat shirt.png",
-        "modalImage": "Images/beige sweat shirt modal.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394460/sweat_shirt_dm0xf7.png",
+        "modalImage": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394462/beige_sweat_shirt_modal_kjza0p.png",
         "sizes": ["S", "M", "L", "XL"],
         "color": "Beige",
         "description": "Premium sweatshirt for everyday comfort."
@@ -54,8 +54,8 @@ const products = [
         "category": "clothing",
         "subcategory": "polos",
         "price": 95,
-        "image": "Images/long sleeve polo.png",
-        "modalImage": "Images/long sleeve polo modal.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394443/long_sleeve_polo_px6ggn.png",
+        "modalImage": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394463/long_sleeve_polo_modal_po0aoi.png",
         "sizes": ["S", "M", "L", "XL"],
         "color": "Black",
         "description": "Elegant long sleeve polo for a refined look."
@@ -66,7 +66,7 @@ const products = [
         "category": "clothing",
         "subcategory": "trousers",
         "price": 88,
-        "image": "Images/trouser.jpg",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394402/trouser_kretpm.jpg",
         "modalImage": null,
         "sizes": ["28", "30", "32", "34", "36"],
         "color": "Charcoal",
@@ -78,7 +78,7 @@ const products = [
         "category": "clothing",
         "subcategory": "trousers",
         "price": 95,
-        "image": "Images/black-trousers.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394398/black-trousers_yvyvbu.jpg",
         "modalImage": null,
         "sizes": ["30", "32", "34", "36"],
         "color": "Black",
@@ -90,8 +90,8 @@ const products = [
         "category": "clothing",
         "subcategory": "jackets",
         "price": 245,
-        "image": "Images/Polo jacket.png",
-        "modalImage": "Images/black jacket modal.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394452/Polo_jacket_wd2hqg.png",
+        "modalImage": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394436/black_jacket_modal_chrzdl.png",
         "sizes": ["S", "M", "L", "XL"],
         "color": "Black",
         "description": "Timeless bomber silhouette in water-resistant nylon."
@@ -102,7 +102,7 @@ const products = [
         "category": "clothing",
         "subcategory": "hoodies",
         "price": 125,
-        "image": "Images/black-hoodie.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394392/black-hoodie_fyegrz.jpg",
         "modalImage": null,
         "sizes": ["S", "M", "L", "XL"],
         "color": "Black",
@@ -114,7 +114,7 @@ const products = [
         "category": "clothing",
         "subcategory": "hoodies",
         "price": 115,
-        "image": "Images/hoodie.jpg",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394402/hoodie_fnp3fu.jpg",
         "modalImage": null,
         "sizes": ["S", "M", "L", "XL"],
         "color": "Navy",
@@ -126,7 +126,7 @@ const products = [
         "category": "shoes",
         "subcategory": "sneakers",
         "price": 195,
-        "image": "Images/white-nappa-sneaker.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394414/white-nappa-sneaker_ertaco.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "White",
@@ -138,7 +138,7 @@ const products = [
         "category": "shoes",
         "subcategory": "sneakers",
         "price": 185,
-        "image": "Images/White nappa.jpg",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394404/White_nappa_xabh90.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "White",
@@ -150,7 +150,7 @@ const products = [
         "category": "shoes",
         "subcategory": "sneakers",
         "price": 85,
-        "image": "Images/Sneaker.jpg",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394398/Sneaker_cemdpz.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Black",
@@ -162,7 +162,7 @@ const products = [
         "category": "shoes",
         "subcategory": "sneakers",
         "price": 165,
-        "image": "Images/shoe-white-lines.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394413/shoe-white-lines_vazv2t.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Black/White",
@@ -174,7 +174,7 @@ const products = [
         "category": "shoes",
         "subcategory": "sneakers",
         "price": 225,
-        "image": "Images/sneaker-white-sole.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394412/sneaker-white-sole_qqhlsi.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Black",
@@ -186,7 +186,7 @@ const products = [
         "category": "shoes",
         "subcategory": "hightops",
         "price": 245,
-        "image": "Images/black-hightop.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394398/black-hightop_yybeqc.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Black",
@@ -198,8 +198,8 @@ const products = [
         "category": "shoes",
         "subcategory": "boots",
         "price": 295,
-        "image": "Images/brown high top shoe.png",
-        "modalImage": "Images/Brown chocolate sude shoes modal.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394458/brown_high_top_shoe_pscton.png",
+        "modalImage": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394421/Brown_chocolate_sude_shoes_modal_yfbcww.png",
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Brown",
         "description": "Classic brown suede high-top boot."
@@ -210,7 +210,7 @@ const products = [
         "category": "shoes",
         "subcategory": "boots",
         "price": 295,
-        "image": "Images/high top.jpg",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394394/high_top_z3q8ov.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Brown",
@@ -222,7 +222,7 @@ const products = [
         "category": "shoes",
         "subcategory": "boots",
         "price": 185,
-        "image": "Images/desert-boot.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394401/desert-boot_fcg3ir.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Sand",
@@ -234,7 +234,7 @@ const products = [
         "category": "shoes",
         "subcategory": "boots",
         "price": 275,
-        "image": "Images/rugged-black-shoe.png",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394416/rugged-black-shoe_gngdo1.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Black",
@@ -246,7 +246,7 @@ const products = [
         "category": "shoes",
         "subcategory": "boots",
         "price": 225,
-        "image": "Images/shoe  rugged.jpg",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394375/shoe_rugged_nwvsgb.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Brown",
@@ -258,7 +258,7 @@ const products = [
         "category": "shoes",
         "subcategory": "loafers",
         "price": 275,
-        "image": "Images/loafers.jpg",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394411/loafers_owsg59.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Brown",
@@ -270,7 +270,7 @@ const products = [
         "category": "shoes",
         "subcategory": "loafers",
         "price": 245,
-        "image": "Images/brown.jpg",
+        "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394411/brown_kzfqah.jpg",
         "modalImage": null,
         "sizes": ["7", "8", "9", "10", "11", "12"],
         "color": "Brown",
@@ -366,7 +366,7 @@ function renderFeaturedProducts() {
                 <img src="${p.image}" 
                     alt="${p.name}"
                     class="max-w-full max-h-full object-contain transition-transform duration-500 group-hover:scale-110"
-                    onerror="this.src='Images/thsirt.jpg'">
+                    onerror="this.src='https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394400/thsirt_ggjjfm.jpg'">
                 <div class="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-all duration-300"></div>
             </div>
             <div class="p-4 bg-white border-t border-gray-100">
@@ -393,7 +393,7 @@ function renderRestockProducts() {
                 <img src="${p.image}" 
                     alt="${p.name}"
                     class="max-w-full max-h-full object-contain transition-transform duration-500 group-hover:scale-110"
-                    onerror="this.src='Images/thsirt.jpg'">
+                    onerror="this.src='https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394400/thsirt_ggjjfm.jpg'">
             </div>
             <div class="p-3 bg-white border-t border-gray-100">
                 <p class="text-xs text-brand-600 capitalize">${p.subcategory}</p>
