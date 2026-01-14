@@ -30,7 +30,7 @@ function renderProducts(productList) {
                 <img src="${product.image}" 
                      alt="${product.name}" 
                      class="product-image max-w-full max-h-full object-contain transition-all duration-500 group-hover:scale-110"
-                     onerror="this.src='Images/thsirt.jpg'">
+                     onerror="this.src='https://res.cloudinary.com/ddhhlkyut/image/upload/v1768394400/thsirt_ggjjfm.jpg'">
                 <!-- Hover Overlay -->
                 <div class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <!-- Quick View Button -->
